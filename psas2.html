@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-color: blanchedalmond;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="bi bi-mortarboard-fill"></i> Tentang Saya
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#Moto Hidup">Moto Hidup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active " href="#Hobi">Hobi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active " href="#Contact">Contact</a>
+                </li>
+                <!-- ... item lainnya ... -->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Moto Hidup-->
+<section id="Moto Hidup" class="container mt-5">
+  <h3>Moto Hidup</h3>
+  <p>
+"Sesungguhnya kesulitan itu pasti ada kemudahan di baliknya. Sesungguhnya sesudah kesulitan itu ada kemudahan. Maka apabila kamu telah selesai (dari sesuatu urusan), kerjakanlah dengan sungguh-sungguh (urusan) yang lain, dan hanya kepada Tuhanmu hendaknya kamu berharap."
+  </p>
+</section>
+<br>
+<!--Hobi-->
+<section id="Hobi" class="container mt-5">
+  <h3>Hobi</h3>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="baca.webp" class="card-img-top" alt="..." height="250px" width="250px">
+  <div class="card-body">
+    <p class="card-text">Ga suka suka teuing</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="menulis.jpg" class="card-img-top" alt="..." height="250px" width="250px">
+  <div class="card-body">
+    <p class="card-text">sama juga ga suka suka teuing</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="memasak.webp" class="card-img-top" alt="..." height="250px" width="250px">
+  <div class="card-body">
+    <p class="card-text">Suka tapi dikit</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</section>
+<br>
+<!--Contact-->
+<section id="Contact" class="container-fluid">
+  <div class="container">
+    <center><h3>Contact</h3></center>
+    <form action="action-page.php" method="post" enctype="multipart/form-data" >
+<table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+<tr> <td>
+<label untuk="Nama">Nama:</label>
+</td> <td>
+<input name="Nama" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label untuk="NomorTelepon">Nomor telepon:</label>
+</td> <td>
+<input name="NomorTelepon" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="FromEmailAddress">Alamat email:</label>
+</td> <td>
+<input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="pesan">Pesan:</label>
+</td> <td>
+<textarea name="pesan" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+</td> </tr> <tr> <td>
+</td><td>
+<input name="skip_Submit" type="submit" value="Kirim" />
+</td> </tr>
+</table>
+</form>
+  </div>
+</section>
+<section id="kontak" class="container-fluid">
+  <div class="container">
+    <center><h3>Hubungi Kami</h3></center>
+    <form action="action-page.php" method="post" enctype="multipart/form-data">
+      <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+        <tr>
+          <td>
+            <label for="namaPengguna">Nama:</label>
+          </td>
+          <td>
+            <input type="text" id="namaPengguna" name="nama" maxlength="60" style="width:100%;max-width:250px;" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="telepon">Nomor Telepon:</label>
+          </td>
+          <td>
+            <input type="text" id="telepon" name="nomorTelepon" maxlength="43" style="width:100%;max-width:250px;" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="emailPengguna">Alamat Email:</label>
+          </td>
+          <td>
+            <input type="email" id="emailPengguna" name="alamatEmail" maxlength="90" style="width:100%;max-width:250px;" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="isiPesan">Pesan:</label>
+          </td>
+          <td>
+            <textarea id="isiPesan" name="pesan" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" name="kirim" value="Kirim Pesan" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
