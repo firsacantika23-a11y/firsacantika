@@ -83,52 +83,43 @@
     <center><h3>Contact</h3></center>
 <section id="kontak" class="container-fluid">
   <div class="container">
-    <center><h3>Hubungi Saya</h3></center>
-    <form action="action-page.php" method="post" enctype="multipart/form-data">
-      <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
-        <tr>
-          <td>
-            <label for="namaPengguna">Nama:</label>
-          </td>
-          <td>
-            <input type="text" id="namaPengguna" name="nama" maxlength="60" style="width:100%;max-width:250px;" required/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="telepon">Nomor Telepon:</label>
-          </td>
-          <td>
-            <input type="text" id="telepon" name="nomorTelepon" maxlength="43" style="width:100%;max-width:250px;" required/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="emailPengguna">Alamat Email:</label>
-          </td>
-          <td>
-            <input type="email" id="emailPengguna" name="alamatEmail" maxlength="90" style="width:100%;max-width:250px;" required/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="isiPesan">Pesan:</label>
-          </td>
-          <td>
-            <textarea id="isiPesan" name="pesan" rows="7" cols="40" style="width:100%;max-width:350px;" required></textarea>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <input type="submit" name="kirim" value="Kirim Pesan" />
-          </td>
-        </tr>
-      </table>
+    <form action="">
+        <div class="row">
+        <div class="col">
+            <label class="form-label"><strong>Nama</strong></label>
+            <input type="text" class="form-control" placeholder="Nama kamu">
+        </div>
+        <br>
+       <div class="col">
+           <label class="form-label"><strong>email</strong></label>  
+           <input type="email" class="form-control" placeholder="gmail.com">
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+            <label class="form-label"><strong>Alamat</strong></label>
+            <input type="text" class="form-control" placeholder="Alamat">
+            </div>
+        </div>
+        <br>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="form-label"><strong>Pesan untuk kamu</strong></label>
+                <textarea class="form-control" rows="5" placeholder="pesan"></textarea>
+            </div>
+        </div>
+        <br>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br>
+                <input type="submit" value="kirim"  class="btn btn-info">
+            </div>
+        </div>
     </form>
-  </div>
-</section>
-
+</div>
+  
 
     <!-- Optional JavaScript; choose one of the two! -->
 
